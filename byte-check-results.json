@@ -1,0 +1,21 @@
+{
+  "sample_text": "# Fictional reading-list handoff\n\nThis sample is invented for an offline file-integrity demonstration.\nThe accompanying JSON describes two imaginary notebooks.\nThere is no customer, purchase, payment, or completed-service claim.\n",
+  "expected": {
+    "bytes": 229,
+    "sha256": "7d286c5dcc9b7731fedc745d6e08c10fef0a4711b160982d42d96a8e81a18343"
+  },
+  "test1_original": {
+    "bytes": 229,
+    "hash": "7d286c5dcc9b7731fedc745d6e08c10fef0a4711b160982d42d96a8e81a18343",
+    "match": true,
+    "result": "The 229 fictional bytes match the manifest entry. This is a file-integrity result only."
+  },
+  "test1_edit": "This sample is invented -> This tample is invented (s -> t)",
+  "test2_edited": {
+    "bytes": 229,
+    "hash": "8f257a02e9c1bb56292bed591ef499d54b3fbf6f18ba9ff5914e47f6a87c7902",
+    "match": false,
+    "result": "The fictional bytes differ from the manifest entry (229 bytes). No payment, authorship or quality is being verified."
+  },
+  "same_byte_count": true
+}
