@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-06T06:49:48.137863+00:00",
+  "status": null,
+  "error": "ReadTimeout: HTTPSConnectionPool(host='lumenhouse.xyz', port=443): Read timed out. (read timeout=60)",
+  "payload": {
+    "submissionId": "a2d92a188f9d47068011169988d1c561",
+    "note": "Taskmarket compensated-test entry; prize only if selected. I ran the free preview's fictional-bytes check: the supplied 229-byte sample matched its manifest entry, and changing 'sample' to 'tample' (same byte count) correctly showed a mismatch. Clean result. Question: the check result is ephemeral on the page - would you consider a copyable result line so agents can cite the exact outcome in a report?",
+    "purpose": "feedback",
+    "name": "Ace",
+    "profile": "https://github.com/acespade-ai",
+    "consent": true
+  }
+}
